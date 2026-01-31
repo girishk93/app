@@ -10,7 +10,7 @@ const adapter = new SQLiteAdapter({
     schema: mySchema,
     // (You might want to comment out migrations if you haven't created them yet)
     // migrations, 
-    jsi: true, // Expo Generic (Hermes) supports JSI
+    jsi: false, // Set to false to work in Expo Go
     onSetUpError: error => {
         // Database failed to load -- often because of schema mismatch or corrupt DB
         // console.log(error)
