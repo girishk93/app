@@ -39,3 +39,5 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+next-portfolio/.next/
+next-portfolio/node_modules/
