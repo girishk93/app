@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/case-studies/[slug]/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__13x39mz._.js")
+R.c("server/chunks/ssr/0-51_next_dist_esm_build_templates_app-page_0tcojol.js")
+R.c("server/chunks/ssr/[root-of-the-server]__021uizn._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__07olnui._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__10u36-7._.js")
+R.c("server/chunks/ssr/0-51_next_dist_client_components_0-hsmxw._.js")
+R.c("server/chunks/ssr/0-51_next_dist_client_components_builtin_forbidden_0ree8~-.js")
+R.c("server/chunks/ssr/0-51_next_dist_client_components_builtin_unauthorized_00i5dmi.js")
+R.c("server/chunks/ssr/0-51_next_dist_client_components_builtin_global-error_0e394rg.js")
+R.c("server/chunks/ssr/0vgf__next-internal_server_app_case-studies_[slug]_page_actions_0-1jwl0.js")
+R.m(25278)
+module.exports=R.m(25278).exports

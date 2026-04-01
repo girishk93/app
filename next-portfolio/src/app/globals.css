@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 98%;
+    --foreground: 220 20% 4%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 4%;
+    
+    --border: 220 20% 90%;
+    
+    --primary: 220 20% 4%;
+    --primary-foreground: 0 0% 100%;
+    
+    --muted: 220 15% 90%;
+    --muted-foreground: 220 15% 40%;
+    
+    --accent: 190 90% 40%;
+    --accent-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 220 20% 4%;
+    --foreground: 220 20% 98%;
+    
+    --card: 220 20% 6%;
+    --card-foreground: 220 20% 98%;
+    
+    --border: 220 20% 12%;
+    
+    --primary: 0 0% 100%;
+    --primary-foreground: 220 20% 4%;
+    
+    --muted: 220 20% 12%;
+    --muted-foreground: 220 15% 60%;
+    
+    --accent: 190 90% 55%;
+    --accent-foreground: 220 20% 4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground tracking-wide antialiased;
+  }
+}
+
+/* Subtle gradient background utility */
+.ambient-gradient {
+  background: radial-gradient(circle at top right, hsl(var(--accent) / 0.05), transparent 40%),
+              radial-gradient(circle at bottom left, hsl(270 50% 50% / 0.03), transparent 40%);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-blue-500;
+}
